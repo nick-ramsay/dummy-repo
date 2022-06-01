@@ -1,7 +1,7 @@
 on:
   push:
     branches:
-      - master
+      - dev
 
 name: Run Synthetics tests using the test public IDs
 jobs:
@@ -15,4 +15,4 @@ jobs:
         with:
           api_key: ${{secrets.DD_API_KEY}}
           app_key: ${{secrets.DD_APP_KEY}}
-          public_ids: '8tc-w2m-nbk' 
+          public_ids: '86n-xmq-a57'

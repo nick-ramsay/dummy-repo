@@ -1,6 +1,6 @@
 {
     "datadogSite": "datadoghq.com",
-    "files": "{,!(node_modules)/**/}{git rev-parse --abbrev-ref HEAD}.synthetics.json",
+    "files": "{,!(node_modules)/**/}master.synthetics.json",
     "global": {
         "locations": ["aws:us-west-1"],
         "retry": { "count": 2, "interval": 300 },

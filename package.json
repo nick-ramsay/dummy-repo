@@ -3,6 +3,7 @@
     "@datadog/datadog-ci": "^1.7.0"
   },
   "scripts": {
+    "foo": "set branch=git rev-parse --symbolic-full-name --abbrev-ref HEAD | if [branch==master]; then echo \"yes\"; else echo \"no\"; fi;",
     "datadog-ci-synthetics": "datadog-ci synthetics run-tests"
   }
 }

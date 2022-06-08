@@ -15,5 +15,4 @@ jobs:
         with:
           api_key: ${{secrets.DD_API_KEY}}
           app_key: ${{secrets.DD_APP_KEY}}
-          public_ids: '86n-xmq-a57'
-          #comment for DEV commits
+          config_path: '../ci/dev.synthetics.json'

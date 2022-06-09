@@ -15,6 +15,6 @@ jobs:
         with:
           api_key: ${{secrets.DD_API_KEY}}
           app_key: ${{secrets.DD_APP_KEY}}
-          #config_path: './ci/dev-datadog-ci.json'
-          config_path: './ci/dev.synthetics.json'
+          config_path: './ci/dev-datadog-ci.json'
+          #config_path: './ci/dev.synthetics.json'
 
